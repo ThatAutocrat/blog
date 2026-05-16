@@ -5,7 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/cloudflare";
+import type { LinksFunction } from "@remix-run/node";
 import stylesheet from "./styles/global.css?url";
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
