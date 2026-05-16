@@ -1,0 +1,30 @@
+{
+  "name": "my-blog",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "deploy": "npm run build && wrangler deploy",
+    "dev": "remix vite:dev",
+    "preview": "wrangler pages dev ./build/client",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/cloudflare": "^2.13.1",
+    "@remix-run/react": "^2.13.1",
+    "front-matter": "^4.0.2",
+    "isbot": "^4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@remix-run/dev": "^2.13.1",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "wrangler": "^3.78.7"
+  }
+}

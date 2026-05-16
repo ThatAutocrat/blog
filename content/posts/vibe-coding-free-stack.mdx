@@ -1,0 +1,44 @@
+---
+title: "I Vibe Coded a Full Stack App for Free and It's Fast"
+date: "2026-02-16"
+tags: [tech, webdev]
+excerpt: "Vercel, Supabase, and a bot that keeps it alive. Zero dollars, zero regrets."
+hero: "/images/laptop.png"
+heroAlt: "Laptop with code on screen"
+---
+<p style="font-size: inherit">
+  <span style="font-family: Georgia, serif; font-size: 4.2rem; font-weight: 700; float: left; line-height: 0.85; margin: 6px 10px 0 0; color: #c85a2a;">I</span>
+ built and shipped a full stack web app last weekend without writing a single line of code. Vibe coding — prompting an AI, accepting what looks right, moving on — is a legitimately viable way to build things now. And I don't mean leaving everything to an AI cause that might turn your brain into mush, the main takeaway is now anybody can create anything tech related in just a matter of minutes and things actually work. I mean that's the end goal right?, making things so accessible that it becomes the norm. Here's the stack I landed on and why every piece of it is free.
+</p>
+## The Stack
+
+**Frontend + hosting: Vercel**
+
+Vercel is the easiest deploy of your life. Connect your GitHub repo, push, done. It builds automatically on every commit, gives you preview URLs for every branch, and the free tier is generous enough that most side projects never outgrow it. Edge network, global CDN, custom domains — all free.
+
+**Database + auth: Supabase**
+
+Supabase is the part that used to be hard. It gives you a Postgres database, a full auth system with email, Google, GitHub login, row-level security, and a REST API — all from a dashboard that actually makes sense. The free tier gives you 500MB storage and 50,000 monthly active users. For a side project, that's essentially infinite.
+
+The auth integration took me maybe 10 minutes to wire up. Supabase generates the client code, the AI filled in the gaps, and it just worked.
+
+## Keeping It Alive
+
+Supabase free tier databases pause after 7 days of inactivity. The fix is embarrassingly simple — use a free uptime monitoring bot like **UptimeRobot** to ping your site every 5 minutes. This counts as activity, the database stays awake, and you never think about it again.
+
+UptimeRobot also alerts you if your site actually goes down, which is a nice bonus.
+
+## The Vibe Coding Part
+
+I described what I wanted in plain English, the AI(Claude) scaffolded the project, I tweaked what looked wrong, pushed to GitHub, and Vercel picked it up automatically. The whole thing — from blank repo to live URL with working auth — took about 20 mins.
+
+Is the code perfect? No. Does it work? Yes. Is it fast? Surprisingly yes — Vercel's edge network and Supabase's connection pooling mean response times that would embarrass a lot of paid setups.
+
+## What It Costs
+
+- Vercel: $0
+- Supabase: $0
+- UptimeRobot: $0
+- Domain: free vercel domain
+
+The free tier of this stack is genuinely good. Not "free with asterisks" good — actually good. If you have an idea and an afternoon, there's no reason not to ship it and it just takes 20 mins.

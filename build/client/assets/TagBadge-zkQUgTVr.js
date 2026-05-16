@@ -1,0 +1,1 @@
+import{m as s,L as o}from"./components-Cw4dH9GI.js";function n({tag:e,linkable:a=!0}){const r=`tag-badge tag-badge--${e.toLowerCase()}`;return a?s.jsx(o,{to:`/category/${e.toLowerCase()}`,className:r,children:e}):s.jsx("span",{className:r,children:e})}export{n as T};
