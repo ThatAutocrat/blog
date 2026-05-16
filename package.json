@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build && node -e \"const fs=require('fs');const path=require('path');fs.readdirSync('public').forEach(f=>fs.copyFileSync(path.join('public',f),path.join('build/client',f)));require('fs').copyFileSync('_worker.js','build/client/_worker.js')\"",
+    "build": "remix vite:build && cp -r public/. build/client/ && node -e \"require('fs').copyFileSync('_worker.js', 'build/client/_worker.js')\"",
     "deploy": "npm run build && wrangler pages deploy ./build/client",
     "dev": "remix vite:dev",
     "preview": "wrangler pages dev ./build/client",
