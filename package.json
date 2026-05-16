@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build",
+    "build": "remix vite:build && node -e \"require('fs').copyFileSync('build/server/index.js', 'build/client/_worker.js')\"",
     "deploy": "npm run build && wrangler pages deploy ./build/client",
     "dev": "remix vite:dev",
     "preview": "wrangler pages dev ./build/client",
