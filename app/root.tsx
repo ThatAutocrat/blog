@@ -11,6 +11,7 @@ import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 
 export const links: LinksFunction = () => [
+  { rel: "icon", href: "/favicon.ico" },
   { rel: "stylesheet", href: stylesheet },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
