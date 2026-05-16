@@ -17,7 +17,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
 
 export function meta() {
   return [
-    { title: "Wandering Fork — Food & Travel Stories" },
+    { title: "That Nomad — Food & Travel Stories" },
     { name: "description", content: "Recipes, restaurant finds, and travel stories from around the world." },
   ];
 }
