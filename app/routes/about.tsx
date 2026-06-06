@@ -2,8 +2,8 @@ import { Link } from "@remix-run/react";
 
 export function meta() {
   return [
-    { title: "About — Wandering Fork" },
-    { name: "description", content: "The story behind Wandering Fork — food, travel, and the meals in between." },
+    { title: "About" },
+    { name: "description", content: "The story behind That Nomad — food, travel, and the meals in between." },
   ];
 }
 
