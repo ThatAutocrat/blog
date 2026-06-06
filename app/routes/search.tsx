@@ -11,8 +11,8 @@ export async function loader() {
 
 export function meta() {
   return [
-    { title: "Search — Wandering Fork" },
-    { name: "description", content: "Search all posts on Wandering Fork." },
+    { title: "Search — That Nomad" },
+    { name: "description", content: "Search all posts." },
   ];
 }
 
