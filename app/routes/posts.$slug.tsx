@@ -24,7 +24,7 @@ export function meta({ data }: { data: Awaited<ReturnType<typeof loader>> | unde
   if (!data) return [{ title: "Post Not Found" }];
   const { post } = data as any;
   return [
-    { title: `${post.frontmatter.title} — Wandering Fork` },
+    { title: `${post.frontmatter.title} — That Nomad` },
     { name: "description", content: post.frontmatter.excerpt },
     { property: "og:title", content: post.frontmatter.title },
     { property: "og:description", content: post.frontmatter.excerpt },
