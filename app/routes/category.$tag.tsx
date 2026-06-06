@@ -16,8 +16,8 @@ export function meta({ data }: { data: any }) {
   if (!data) return [{ title: "Category Not Found" }];
   const tag = data.tag as string;
   return [
-    { title: `${tag.charAt(0).toUpperCase() + tag.slice(1)} — Wandering Fork` },
-    { name: "description", content: `All ${tag} posts on Wandering Fork.` },
+    { title: `${tag.charAt(0).toUpperCase() + tag.slice(1)} — That Nomad` },
+    { name: "description", content: `All ${tag} posts on That Nomad.` },
   ];
 }
 
