@@ -1,0 +1,97 @@
+---
+title: "My Bucket List"
+date: "2026-11-09"
+tags: [travel, bucket-list, countries]
+excerpt: "26 countries across 5 continents I dream of visiting, from Egypt and Japan to Iceland and New Zealand."
+hero: "https://img.magnific.com/free-psd/colorful-3d-world-map-global-perspective_191095-77660.jpg?semt=ais_hybrid&w=740&q=80"
+heroAlt: "Colorful 3D world map"
+---
+
+export const Center = ({ children }) => (
+  <div style={{ textAlign: 'center' }}>{children}</div>
+)
+
+<Center>
+
+# 🗺️ My Bucket List
+
+### ✈️ 26 countries · 5 continents · 13% of the world 🌐
+
+`🟦🟦░░░░░░░░░░░░░░░░░░░░` **26 / 195**
+
+</Center>
+
+![Colorful 3D world map](https://img.magnific.com/free-psd/colorful-3d-world-map-global-perspective_191095-77660.jpg?semt=ais_hybrid&w=740&q=80)
+
+---
+
+## 📊 At a Glance
+
+| Continent | Countries | Share of my list |
+|:--|:--:|:--|
+| 🌍 Africa | 1 | █░░░░░░░░░ 4% |
+| 🌏 Asia | 10 | ████░░░░░░ 38% |
+| 🏰 Europe | 10 | ████░░░░░░ 38% |
+| 🌎 North America | 3 | █░░░░░░░░░ 12% |
+| 🏝️ Oceania | 2 | █░░░░░░░░░ 8% |
+
+---
+
+## 🌍 Africa
+
+| | Country | Capital |
+|:--:|:--|:--|
+| 🇪🇬 | **Egypt** | Cairo |
+
+## 🌏 Asia
+
+| | Country | Capital |
+|:--:|:--|:--|
+| 🇨🇳 | **China** | Beijing |
+| 🇭🇰 | **Hong Kong** | Hong Kong |
+| 🇯🇵 | **Japan** | Tokyo |
+| 🇲🇻 | **Maldives** | Malé |
+| 🇶🇦 | **Qatar** | Doha |
+| 🇸🇬 | **Singapore** | Singapore |
+| 🇰🇷 | **South Korea** | Seoul |
+| 🇹🇼 | **Taiwan** | Taipei |
+| 🇹🇭 | **Thailand** | Bangkok |
+| 🇦🇪 | **United Arab Emirates** | Abu Dhabi |
+
+## 🏰 Europe
+
+| | Country | Capital |
+|:--:|:--|:--|
+| 🇫🇮 | **Finland** | Helsinki |
+| 🇫🇷 | **France** | Paris |
+| 🇩🇪 | **Germany** | Berlin |
+| 🇬🇷 | **Greece** | Athens |
+| 🇮🇸 | **Iceland** | Reykjavík |
+| 🇮🇹 | **Italy** | Rome |
+| 🇷🇺 | **Russia** | Moscow |
+| 🇨🇭 | **Switzerland** | Bern |
+| 🇬🇧 | **United Kingdom** | London |
+| 🇻🇦 | **Vatican City** | Vatican City |
+
+## 🌎 North America
+
+| | Country | Capital |
+|:--:|:--|:--|
+| 🇨🇦 | **Canada** | Ottawa |
+| 🇬🇱 | **Greenland** | Nuuk |
+| 🇺🇸 | **United States** | Washington, D.C. |
+
+## 🏝️ Oceania
+
+| | Country | Capital |
+|:--:|:--|:--|
+| 🇦🇺 | **Australia** | Canberra |
+| 🇳🇿 | **New Zealand** | Wellington |
+
+---
+
+<Center>
+
+*🧳 Pack light, travel far.*
+
+</Center>
